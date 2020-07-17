@@ -39,6 +39,8 @@ public class EmployeeController {
     // alterar informações de um employee específico
     @PutMapping("/employees/{id}")
     Employee replaceEmployee(@RequestBody Employee newEmployee, @PathVariable Long id) {
+        // caso encontre o id pega o valor de name e role e atualiza salvando os dados do emplooye,
+        // senão ele cria um novo employee.
         return repository.findById(id).map(employee -> {
             employee.setName(newEmployee.getName());
             employee.setRole(newEmployee.getRole());
