@@ -1,0 +1,12 @@
+GET     www.dominio.com/employees     - recupera todos os empregados
+POST    www.dominio.com/employees     - criar um empregado
+GET     www.dominio.com/employees/id  - recuperar um empregado específico
+OUT     www.dominio.com/employees/id  - alterar um empregado
+DELETE  www.dominio.com/employees/id  - apagar um empregado
+
+http status code meaning:
+2xx - OK
+3xx - recurso mudou de lugar, precisa de autorização
+4xx - erro de negocio, erro do corpo da mensagem
+5xx - erro interno do servidor, ex: banco de dados caiu
+
