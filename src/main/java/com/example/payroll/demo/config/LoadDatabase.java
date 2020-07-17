@@ -18,7 +18,7 @@ public class LoadDatabase {
     CommandLineRunner initDatabase(EmployeeRepository repository) {
         // expressão lambda
         return args -> {
-            log. info("Preloading " + repository.save(new Employee("Julia Vaz", "Developer")));
+            log.info("Preloading " + repository.save(new Employee("Julia Vaz", "Developer")));
             log.info("Preloading " + repository.save(new Employee("Fulano", "Developer")));
         };
     }
