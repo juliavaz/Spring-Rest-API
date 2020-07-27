@@ -12,4 +12,4 @@ http status code meaning:
 
 API (Application Programming Interface):
     serviço disponibilizado para que outras pessoas/sistemas possam utilizar,
-    sendo assim poderia ser uma espécie de computador que disponibilizam serviços.
+    sendo assim poderia ser uma espécie de programa de computador que disponibiliza serviços.
