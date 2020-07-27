@@ -10,3 +10,6 @@ http status code meaning:
 4xx - erro de negocio, erro do corpo da mensagem
 5xx - erro interno do servidor, ex: banco de dados caiu
 
+API (Application Programming Interface):
+    serviço disponibilizado para que outras pessoas/sistemas possam utilizar,
+    sendo assim poderia ser uma espécie de computador que disponibilizam serviços.

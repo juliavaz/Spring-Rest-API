@@ -13,6 +13,8 @@ import java.util.ArrayList;
 
 import static springfox.documentation.builders.PathSelectors.regex;
 
+/* Essa classe configura a documentação swagger, filtrando pacotes e adicionando informações sobre a API */
+
 @Configuration
 public class SwaggerConfig {
 
@@ -21,7 +23,6 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("com.example.payroll.demo")) //diretório raiz da aplicação
-                //.paths(PathSelectors.any())
                 .paths(regex("/employees.*")) //uri raiz da aplicação
                 .build()
                 .apiInfo(metaInfo());
@@ -34,8 +35,6 @@ public class SwaggerConfig {
                 "Application Rest API with Spring Boot",
                 "1.0",
                 "Terms of Service",
-                /*new Contact("Júlia Vaz", "https://github.com/juliavaz/",
-                        "juliavaz.dev@gmail.com"),*/
                 this.contato(),
                 "Apache License Version 2.0",
                 "https://www.apache.org/licesen.html", new ArrayList<VendorExtension>()
