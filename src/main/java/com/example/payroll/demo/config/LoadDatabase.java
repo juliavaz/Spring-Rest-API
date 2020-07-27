@@ -1,7 +1,7 @@
 package com.example.payroll.demo.config;
 
-import com.example.payroll.demo.Model.Employee;
-import com.example.payroll.demo.Repository.EmployeeRepository;
+import com.example.payroll.demo.model.Employee;
+import com.example.payroll.demo.repository.EmployeeRepository;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package com.example.payroll.demo.Exception;
+package com.example.payroll.demo.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;

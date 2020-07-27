@@ -1,8 +1,8 @@
-package com.example.payroll.demo.Api;
+package com.example.payroll.demo.api;
 
-import com.example.payroll.demo.Exception.EmployeeNotFoundException;
-import com.example.payroll.demo.Model.Employee;
-import com.example.payroll.demo.Repository.EmployeeRepository;
+import com.example.payroll.demo.exception.EmployeeNotFoundException;
+import com.example.payroll.demo.model.Employee;
+import com.example.payroll.demo.repository.EmployeeRepository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

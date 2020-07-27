@@ -1,4 +1,4 @@
-package com.example.payroll.demo.Exception;
+package com.example.payroll.demo.exception;
 
 public class EmployeeNotFoundException extends RuntimeException{
     public EmployeeNotFoundException(Long id) {
