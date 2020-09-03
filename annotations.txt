@@ -1,15 +1,29 @@
-GET     www.dominio.com/employees     - recupera todos os empregados
-POST    www.dominio.com/employees     - criar um empregado
-GET     www.dominio.com/employees/id  - recuperar um empregado específico
-OUT     www.dominio.com/employees/id  - alterar um empregado
-DELETE  www.dominio.com/employees/id  - apagar um empregado
+ENDPOINTS: 
+    GET     www.dominio.com/employees     - recupera todos os empregados
+    POST    www.dominio.com/employees     - criar um empregado
+    GET     www.dominio.com/employees/id  - recuperar um empregado específico
+    PUT     www.dominio.com/employees/id  - alterar um empregado
+    DELETE  www.dominio.com/employees/id  - apagar um empregado
+    PATCH   www.dominio.com/employees/id  - alterar uma caracteristica do empregado
 
 http status code meaning:
-2xx - OK
-3xx - recurso mudou de lugar, precisa de autorização
-4xx - erro de negocio, erro do corpo da mensagem
-5xx - erro interno do servidor, ex: banco de dados caiu
+    2xx - OK
+    3xx - recurso mudou de lugar, precisa de autorização
+    4xx - erro de negocio, erro do corpo da mensagem
+    5xx - erro interno do servidor, ex: banco de dados caiu
 
 API (Application Programming Interface):
-    serviço disponibilizado para que outras pessoas/sistemas possam utilizar,
-    sendo assim poderia ser uma espécie de programa de computador que disponibiliza serviços.
+    Interface de programação de aplicações;
+    Serviço disponibilizado para que outras pessoas/sistemas possam utilizar, sendo assim poderia ser uma espécie de programa de computador que disponibiliza serviços;
+    Meio de campo entre a troca de dados, podendo ser: 
+        aplicação <-> aplicação ou 
+        usuário <-> aplicação.
+
+REST: 
+    Conjunto de padrões para como se comunicar e implementar na API;
+
+API RESTful ():
+    Forma de criar API's;
+    Arquitetura e um conjunto de padrões para ser seguido na contrução da API;
+    Segue os protocolos HTTP;
+    
