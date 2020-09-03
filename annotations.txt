@@ -1,4 +1,4 @@
-ENDPOINTS: 
+ENDPOINTS ( uri ): 
     GET     www.dominio.com/employees     - recupera todos os empregados
     POST    www.dominio.com/employees     - criar um empregado
     GET     www.dominio.com/employees/id  - recuperar um empregado específico
